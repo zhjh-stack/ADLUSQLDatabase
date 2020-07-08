@@ -1,0 +1,31 @@
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>2029ca79-9439-41a7-8a0b-6349f4fc663a</ProjectGuid>
+    <OutputType>File</OutputType>
+    <AssemblyName>ADLUSQLDatabase.usqldbpack</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Name>ADLUSQLDatabase</Name>
+    <RootNamespace>ADLUSQLDatabase</RootNamespace>
+    <TargetDirectorySeparator>/</TargetDirectorySeparator>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Script Include="Assembly1.usql">
+      <SubType>Assembly</SubType>
+    </Script>
+    <Script Include="Schema1.usql">
+      <SubType>Schema</SubType>
+    </Script>
+  </ItemGroup>
+  <Import Project="$(USQLSDKPath)\USqlDBProject.targets" Condition="'$(USQLSDKPath)' != '' And Exists('$(USQLSDKPath)\USqlDBProject.targets')" />
+</Project>
