@@ -1,2 +1,2 @@
-﻿CREATE ASSEMBLY [MyUDO]
-FROM @_DeployTempDirectory + @"/MyUDO/MyUDO.dll";
+﻿CREATE ASSEMBLY IF NOT EXISTS [MyUDO]
+FROM @_DeployTempDirectory + @"/USQLCSharpProject1/USQLCSharpProject1.dll";

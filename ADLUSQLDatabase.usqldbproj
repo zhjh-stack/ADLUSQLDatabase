@@ -27,5 +27,13 @@
       <SubType>Schema</SubType>
     </Script>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="USQLCSharpProject1\USQLCSharpProject1.csproj">
+      <Name>USQLCSharpProject1</Name>
+      <Project>{a186f648-b67b-43ee-834c-ed40c0940e96}</Project>
+      <Private>True</Private>
+      <TargetDir>USQLCSharpProject1</TargetDir>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(USQLSDKPath)\USqlDBProject.targets" Condition="'$(USQLSDKPath)' != '' And Exists('$(USQLSDKPath)\USqlDBProject.targets')" />
 </Project>
