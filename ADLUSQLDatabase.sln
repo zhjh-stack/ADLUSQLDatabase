@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{0C603C2C-620A-423B-A800-4F3E2F6281F1}") = "ADLUSQLDatabase", "ADLUSQLDatabase.usqldbproj", "{2029CA79-9439-41A7-8A0B-6349F4FC663A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USQLCSharpProject1", "USQLCSharpProject1\USQLCSharpProject1.csproj", "{A186F648-B67B-43EE-834C-ED40C0940E96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyUDO", "..\MyUDO\MyUDO.csproj", "{DF5FF7D9-C114-4B3D-96B6-ADAF540323FF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{2029CA79-9439-41A7-8A0B-6349F4FC663A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2029CA79-9439-41A7-8A0B-6349F4FC663A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2029CA79-9439-41A7-8A0B-6349F4FC663A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A186F648-B67B-43EE-834C-ED40C0940E96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A186F648-B67B-43EE-834C-ED40C0940E96}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A186F648-B67B-43EE-834C-ED40C0940E96}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A186F648-B67B-43EE-834C-ED40C0940E96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF5FF7D9-C114-4B3D-96B6-ADAF540323FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5FF7D9-C114-4B3D-96B6-ADAF540323FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5FF7D9-C114-4B3D-96B6-ADAF540323FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5FF7D9-C114-4B3D-96B6-ADAF540323FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

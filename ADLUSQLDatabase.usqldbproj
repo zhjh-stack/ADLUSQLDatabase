@@ -28,11 +28,11 @@
     </Script>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="USQLCSharpProject1\USQLCSharpProject1.csproj">
-      <Name>USQLCSharpProject1</Name>
-      <Project>{a186f648-b67b-43ee-834c-ed40c0940e96}</Project>
+    <ProjectReference Include="..\MyUDO\MyUDO.csproj">
+      <Name>MyUDO</Name>
+      <Project>{df5ff7d9-c114-4b3d-96b6-adaf540323ff}</Project>
       <Private>True</Private>
-      <TargetDir>USQLCSharpProject1</TargetDir>
+      <TargetDir>MyUDO</TargetDir>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(USQLSDKPath)\USqlDBProject.targets" Condition="'$(USQLSDKPath)' != '' And Exists('$(USQLSDKPath)\USqlDBProject.targets')" />
